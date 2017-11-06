@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+    <!--komentarze w brackets za pomoca ctrl +/-->
+    <!--komentarze nie sa widoczne ale sa widoczne w strukturze    -->
+    <!--komentarzami opisujemy poszczegolne bloki kodu-->
+    
+    <!--    navigacja start-->
+    element nawigacjny z lista numerowana, w liscie 5 elementow, w kazdym elemencie listy link
+    <nav>
+        <ul>
+            <ul><a href="">link</a></ul>
+            <ul><a href="">link</a></ul>
+            <ul><a href="">link</a></ul>
+            <ul><a href="">link</a></ul>
+            <ul><a href="">link</a></ul>
+        </ul>
+    </nav>
+    <!--    nawigacja end-->
+    
+<!--elementy blokowe rozciagaja sie (szerokosc) na pelna szerokosc dostepnego miejsca w oknie przegladarki (100%). Jezeli sa puste (brak contentu), to posiadaja 0 px wysokosci-->
+  
+  <div>
+  <a href="">link</a>
+  <a href="">link</a>
+  <a href="">link</a>
+  <a href="">link</a>
+  <a href="">link</a></div>
+   
+    
+    <!--elementy liniowe, zajmuja tyle miejsca ile zawarta w nich tresc, domyslnie ustawiaja sie jeden obok drugiego-->
+  
+    <!--do tworzenia formularza, uzywamy znacznika form-->
+    <div id="formularz">
+    
+    <!--input typu text, przyjmuje wartosci tekstowe-->
+    <input type="text"><br>
+    
+    <!--do grupowania typu radio potrzebujemy dla kazdego z nich uzyc atrybutu z ta sama wartosci-->
+    <!--atrybut value przy inptach, moze byc potrzebny do skryptu .php, ktory odpalany jest przy wysylaniu formularza (z atrybutu action)-->
+       
+    <!--input typu number pozwala na wpisanie tylko wartosci liczbowych (i znakow specjalnych jak + -)-->
+       <input type="number"><br>
+       
+    <!--input type tel zaznacza, ze w tym miejscu bedzie wpisany numer telefonu-->
+      <input type="tel">
+      
+    <!--input type mail zaznacza, ze w tym miejscu bedzie wpisany mail-->      
+      <input type="email">
+      
+        <form action=""method="">
+        <input type="radio"name="age">-18
+        <input type="radio"name="age">18
+        <input type="radio"name="age">18+<br>
+        
+    <!--atrybut name potrzebny jest do zdefiniowania nazwy konkretnego pola formularz-->
+    <input type="text"name="firstname"><br>
+    <input type="text"name="lastname"><br>
+    
+    <!--atrybut paceholder sluzy do opisania konkretnego inputa(opis pojawi sie wewnatrz niego)-->
+    <input type="text"name="birthday"placeholder="wpisz date urodzin">
+    </form></div>
+    
+    
+
+</body>
+</html>
